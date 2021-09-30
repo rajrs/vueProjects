@@ -1,5 +1,24 @@
-### create store env 
-clientId is required for get acces token in imgur 
-so clientId is stored in ".env.development.local" in project root folder
-VUE_APP_CLIENT_ID="clientid###"
-and accessed by process.env.VUE_APP_CLIENT_ID
+# video-app
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
